@@ -13,15 +13,8 @@ const Styles = styled.div`
         z-index: -2;
     }
 
-    .overlay {
-        background-color = #000;
-        opacity:0.6;
-        position:absolute;
-        top:0;
-        bottom:0;
-        left:O;
-        right:0;
-        z-index:-1;
+    h1 {
+        color:white;
     }
 `;
 
@@ -29,10 +22,9 @@ const Styles = styled.div`
 export const Jumbotron = () => (
     <Styles>
         <Jumbo fluid className="jumbo">
-            <div className="overlay"></div>
             <Container>
-                <h1> Welcome </h1>
-                <p> Learn to code </p>
+                <h1> Welcome on my website </h1>
+                <p> On my journey to the react graal </p>
             </Container>
         </Jumbo>
     </Styles>
