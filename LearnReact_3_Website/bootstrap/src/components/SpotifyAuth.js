@@ -67,7 +67,9 @@ export default class SpotifyAuth extends Component {
     if (!this.state.token) {
       let _token = hash.access_token;
       if (_token) {
-        document.cookie = "token=" + _token;
+        let now = new Date();
+        now.setTime(now.getTime() + 1 * 3600 * 1000);
+        document.cookie = "token=" + _token +"; expires="+now.toUTCString();
         this.getWhatIlistend(_token);
         this.setState({
           token: _token
