@@ -13,7 +13,8 @@ const styles = {
   }
 };
 
-export default ({ exercises, category }) => (
+export default ({ exercises, exercise : {title = "Welcome",description = "Please select an exercise"}, category, onSelect }) => (
+
   <Grid container sm={12} item={true}>
     <Grid item sm={6}>
       <Paper style={styles.Paper}>
@@ -24,9 +25,9 @@ export default ({ exercises, category }) => (
                 {group}
               </Typography>
               <List component="ul" aria-label="secondary mailbox folders">
-                {exos.map(({ title }) => (
+                {exos.map(({ id,title }) => (
                   <ListItem key={title} button>
-                    <ListItemText primary={title} />
+                    <ListItemText primary={title} onClick={() => onSelect(id)}/>
                   </ListItem>
                 ))}
               </List>
@@ -38,9 +39,9 @@ export default ({ exercises, category }) => (
 
     <Grid item sm>
       <Paper style={styles.Paper}>
-        <Typography variant="h2">Welcome !</Typography>
+        <Typography variant="h2"> {title} </Typography>
         <Typography variant="subtitle1" style={{ marginTop: 20 }}>
-          Please select an exercise from the list on the left
+          {description}
         </Typography>
       </Paper>
     </Grid>
