@@ -13,7 +13,7 @@ export default ({muscles}) => (
   <Tab label="All"/>
 
   {muscles.map(grp => 
-      <Tab label={grp} />
+      <Tab key={grp} label={grp} />
   )}
 
   </Tabs>
