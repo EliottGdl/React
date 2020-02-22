@@ -29,7 +29,7 @@ export default class extends Component {
     return (
       <Fragment>
         <Box borderRadius="50%">
-          <Button aria-label="add" style={{backgroundColor:"white"}} onClick={this.handleToggle}>
+          <Button aria-label="add" variant="contained" onClick={this.handleToggle}>
             <AddIcon />
           </Button>
         </Box>
@@ -37,7 +37,6 @@ export default class extends Component {
         <Dialog
           open={open}
           onClose={this.handleToggle}
-          aria-labelledby="form-dialog-title"
         >
           <DialogTitle id="form-dialog-title">Create an exercise</DialogTitle>
           <DialogContent>
@@ -47,7 +46,7 @@ export default class extends Component {
             <form></form>
           </DialogContent>
           <DialogActions>
-            <Button color="primary">
+            <Button color="primary" variant = "contained">
               Create
             </Button>
           </DialogActions>
