@@ -32,17 +32,17 @@ export default ({data}) => {
     <div className={classes.root}>
       <GridList cellHeight={180} className={classes.gridList}>
         <GridListTile key="Subheader" cols={2} style={{ height: "auto" }}>
-          <ListSubheader component="div">December</ListSubheader>
+          <ListSubheader component="div"> Musics that you love the most </ListSubheader>
         </GridListTile>
-        {data.map(tile => (
-          <GridListTile key={tile.img}>
-            <img src={tile.img} alt={tile.title} />
+        {data.items.map(song => (
+          <GridListTile key={song.name}>
+            <img src={song.img} alt={song.name} />
             <GridListTileBar
-              title={tile.title}
-              subtitle={<span>by: {tile.author}</span>}
+              title={song.name}
+              subtitle={<span>by: {song.author}</span>}
               actionIcon={
                 <IconButton
-                  aria-label={`info about ${tile.title}`}
+                  aria-label={`info about ${song.name}`}
                   className={classes.icon}
                 >
                   <InfoIcon />

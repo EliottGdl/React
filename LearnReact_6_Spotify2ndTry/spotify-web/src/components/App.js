@@ -29,26 +29,16 @@ export default class App extends Component {
 
   getWhatIlistend(tok) {
     $.ajax({
-      url: "https://api.spotify.com/v1/me/player/recently-played",
+      url: "https://api.spotify.com/v1/me/top/tracks",
       type: "GET",
       beforeSend: xhr => {
         xhr.setRequestHeader("Authorization", "Bearer " + tok);
       },
       success: data => {
-        let eAll = "";
-        let ecoutes = [];
-        for (let item of data.items) {
-          eAll += item.track.name + " Artists : ";
-          for (let artiste of item.track.artists) {
-            eAll += artiste.name + " ";
-          }
-          ecoutes.push(eAll);
-          eAll = "";
-        }
-
+        console.log(data);
         this.setState({
           token: tok,
-          songs: ecoutes
+          songs: data
         });
       }
     });
@@ -73,10 +63,13 @@ export default class App extends Component {
   }
 
   render () {
+
     return (
       <div>
         {!this.state.token ? 
-        <ConnectionPage/> : <Index data = {this.state.songs} />}
+        <ConnectionPage/> : 
+          this.state.songs ? <Index data = {this.state.songs} />
+          :<p>Loading...</p>}
       </div>
     )
   }

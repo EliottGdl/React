@@ -8,7 +8,8 @@ const redirectUri = "http://localhost:3000/";
 const scopes = [
   "user-read-currently-playing",
   "user-read-playback-state",
-  "user-read-recently-played"
+  "user-read-recently-played",
+  "user-top-read"
 ];
 
 
