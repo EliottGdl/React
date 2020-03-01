@@ -27,24 +27,22 @@ export default class App extends Component {
       )
   };
 
-  getWhatIlistend(tok) {
-    $.ajax({
-      url: "https://api.spotify.com/v1/me/top/tracks?time_range=long_term&limit=50",
+  getWhatIlistend(token,howLong,whatToDo) {
+    console.log("aa")
+    return $.ajax({
+      url: "https://api.spotify.com/v1/me/top/tracks?time_range="+howLong+"&limit=50",
       type: "GET",
       beforeSend: xhr => {
-        xhr.setRequestHeader("Authorization", "Bearer " + tok);
+        xhr.setRequestHeader("Authorization", "Bearer " + token);
       },
       success: data => {
-        console.log(data.items);
+        console.log("ee")
         let classement = 1;
         for (let item of data.items) {
           item.rank = classement;
           classement++;
         }
-        this.setState({
-          token: tok,
-          songs: data
-        });
+        whatToDo(data);
       }
     });
   }
@@ -57,14 +55,11 @@ export default class App extends Component {
         let now = new Date();
         now.setTime(now.getTime() + 1 * 3600 * 1000);
         document.cookie = "token=" + _token +"; expires="+now.toUTCString();
-        this.getWhatIlistend(_token);
         this.setState({
           token: _token
         });
       }
-    } else {
-      this.getWhatIlistend(this.state.token);
-    }
+    } 
   }
 
   render () {
@@ -72,9 +67,7 @@ export default class App extends Component {
     return (
       <div>
         {!this.state.token ? 
-        <ConnectionPage/> : 
-          this.state.songs ? <Index data = {this.state.songs} />
-          :<p>Loading...</p>}
+        <ConnectionPage/> : <Index token = {this.state.token} getData = {this.getWhatIlistend} />}
       </div>
     )
   }
