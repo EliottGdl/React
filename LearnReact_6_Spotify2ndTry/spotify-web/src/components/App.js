@@ -1,70 +1,84 @@
 import React, { Component, Fragment } from "react";
-import { Header, Footer } from "./Layouts";
-import Exercises from "./Exercises";
-import {muscles,exercises} from "../store.js";
+import ConnectionPage from "./Connection/ConnexionPage";
+import Index from "./Analyze/index";
+import $ from "jquery";
 
+const hash = window.location.hash
+  .substring(1)
+  .split("&")
+  .reduce(function(initial, item) {
+    if (item) {
+      var parts = item.split("=");
+      initial[parts[0]] = decodeURIComponent(parts[1]);
+    }
+    return initial;
+  }, {});
 
-export default class extends Component {
+window.location.hash = "";
 
+export default class App extends Component {
+  
   state = {
-    exercises,
-    exercise : {}
+    token:
+      undefined ||
+      document.cookie.replace(
+        /(?:(?:^|.*;\s*)token\s*\=\s*([^;]*).*$)|^.*$/,
+        "$1"
+      )
+  };
+
+  getWhatIlistend(tok) {
+    $.ajax({
+      url: "https://api.spotify.com/v1/me/player/recently-played",
+      type: "GET",
+      beforeSend: xhr => {
+        xhr.setRequestHeader("Authorization", "Bearer " + tok);
+      },
+      success: data => {
+        let eAll = "";
+        let ecoutes = [];
+        for (let item of data.items) {
+          eAll += item.track.name + " Artists : ";
+          for (let artiste of item.track.artists) {
+            eAll += artiste.name + " ";
+          }
+          ecoutes.push(eAll);
+          eAll = "";
+        }
+
+        this.setState({
+          token: tok,
+          songs: ecoutes
+        });
+      }
+    });
   }
 
-  getExercisesByMuscles() {
-     const results = 
-      this.state.exercises.reduce((exercises,exo) => {
-      const {muscles} = exo
 
-      exercises[muscles] = exercises[muscles] ? [...exercises[muscles],exo] : [exo] 
-      return exercises
-    }, {})
-    return Object.entries(results);
+  componentDidMount() {
+    if (!this.state.token) {
+      let _token = hash.access_token;
+      if (_token) {
+        let now = new Date();
+        now.setTime(now.getTime() + 1 * 3600 * 1000);
+        document.cookie = "token=" + _token +"; expires="+now.toUTCString();
+        this.getWhatIlistend(_token);
+        this.setState({
+          token: _token
+        });
+      }
+    } else {
+      this.getWhatIlistend(this.state.token);
+    }
   }
 
-  handleCategorySelect = category => {
-    this.setState({
-        category
-    })
-  }
-
-  handleExerciseSelect = id => {
-    this.setState((previous)=>({
-      exercise:previous.exercises.find(ex => ex.id === id)  
-    }))
-  }
-
-  handleExerciseCreate = exercise => {
-    this.setState(({ exercise }) => ({
-      exercises : [
-        ...exercises,
-        exercise
-      ]
-    }))
-  }
-
-  render() {
-
-    const exercises = this.getExercisesByMuscles(),
-    {category,exercise} = this.state;
+  render () {
     return (
-      <Fragment>
-        <Header 
-          muscles = {muscles}
-          onExerciseCreate = {this.handleExerciseCreate}
-        />
-        <Exercises 
-          exercise = {exercise}
-          category = {category}
-          exercises = {exercises}
-          onSelect = {this.handleExerciseSelect}
-        />
-        <Footer 
-          category = {category}
-          muscles = {muscles}
-          onSelect={this.handleCategorySelect}
-        />
-      </Fragment>
-    );
+      <div>
+        {!this.state.token ? 
+        <ConnectionPage/> : <Index data = {this.state.songs} />}
+      </div>
+    )
   }
+  
 }
