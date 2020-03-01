@@ -29,7 +29,7 @@ export default class App extends Component {
 
   getWhatIlistend(tok) {
     $.ajax({
-      url: "https://api.spotify.com/v1/me/top/tracks",
+      url: "https://api.spotify.com/v1/me/top/tracks?time_range=long_term",
       type: "GET",
       beforeSend: xhr => {
         xhr.setRequestHeader("Authorization", "Bearer " + tok);
