@@ -17,7 +17,6 @@ const useStyles = makeStyles(theme => ({
   },
   gridList: {
     width: 500,
-    height: 450
   },
   icon: {
     color: "rgba(255, 255, 255, 0.54)"
@@ -36,10 +35,10 @@ export default ({data}) => {
         </GridListTile>
         {data.items.map(song => (
           <GridListTile key={song.name}>
-            <img src={song.img} alt={song.name} />
+            <img src={song.album.images[1].url} alt={song.name} />
             <GridListTileBar
               title={song.name}
-              subtitle={<span>by: {song.author}</span>}
+              subtitle={<span> Rank : {song.rank}</span>}
               actionIcon={
                 <IconButton
                   aria-label={`info about ${song.name}`}

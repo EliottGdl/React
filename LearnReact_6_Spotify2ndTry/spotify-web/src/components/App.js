@@ -35,7 +35,12 @@ export default class App extends Component {
         xhr.setRequestHeader("Authorization", "Bearer " + tok);
       },
       success: data => {
-        console.log(data);
+        console.log(data.items);
+        let classement = 1;
+        for (let item of data.items) {
+          item.rank = classement;
+          classement++;
+        }
         this.setState({
           token: tok,
           songs: data
