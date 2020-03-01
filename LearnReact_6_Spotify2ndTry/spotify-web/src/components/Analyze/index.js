@@ -38,7 +38,7 @@ export default ({data}) => {
             <img src={song.album.images[1].url} alt={song.name} />
             <GridListTileBar
               title={song.name}
-              subtitle={<span> Rank : {song.rank}</span>}
+              subtitle={<span> Rank : {song.rank} Popularity : {song.popularity}</span>}
               actionIcon={
                 <IconButton
                   aria-label={`info about ${song.name}`}
