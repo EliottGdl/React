@@ -28,7 +28,6 @@ export default class App extends Component {
   };
 
   getWhatIlistend(token,howLong,whatToDo) {
-    console.log("aa")
     return $.ajax({
       url: "https://api.spotify.com/v1/me/top/tracks?time_range="+howLong+"&limit=50",
       type: "GET",
@@ -36,12 +35,14 @@ export default class App extends Component {
         xhr.setRequestHeader("Authorization", "Bearer " + token);
       },
       success: data => {
-        console.log("ee")
         let classement = 1;
+        let itemPop = 0;
         for (let item of data.items) {
           item.rank = classement;
           classement++;
+          itemPop += item.popularity;
         }
+        data.moyRank = itemPop / 50;
         whatToDo(data);
       }
     });
