@@ -10,7 +10,7 @@ import InfoIcon from "@material-ui/icons/Info";
 const useStyles = makeStyles(theme => ({
   gridList: {
     width: 400,
-    height: 970
+    height: 600
   },
   icon: {
     color: "rgba(255, 255, 255, 0.54)"
@@ -19,6 +19,10 @@ const useStyles = makeStyles(theme => ({
 
 export default ({ sg, title }) => {
   const classes = useStyles();
+
+  const handleClick = () => {
+
+  }
 
   return (
       <GridList cellHeight={180} className={classes.gridList}>
@@ -38,6 +42,7 @@ export default ({ sg, title }) => {
               }
               actionIcon={
                 <IconButton
+                  onClick={handleClick}
                   aria-label={`info about ${song.name}`}
                   className={classes.icon}
                 >
@@ -48,5 +53,6 @@ export default ({ sg, title }) => {
           </GridListTile>
         ))}
       </GridList>
+      
   );
 };

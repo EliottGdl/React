@@ -10,7 +10,7 @@ import InfoIcon from "@material-ui/icons/Info";
 const useStyles = makeStyles(theme => ({
   gridList: {
     width: 400,
-    height: 970
+    height: 600
   },
   icon: {
     color: "rgba(255, 255, 255, 0.54)"
@@ -32,8 +32,8 @@ export default ({ arts, title }) => {
               title={artiste.name}
               subtitle={
                 <span>
-                  {" "}
-                  Rank : {artiste.rank} Popularity : {artiste.popularity}
+                  {   }
+                  Rank: {artiste.rank} Popularity: {artiste.popularity}
                 </span>
               }
               actionIcon={

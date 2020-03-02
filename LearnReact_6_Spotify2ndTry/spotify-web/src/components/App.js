@@ -38,9 +38,11 @@ export default class App extends Component {
         let classement = 1;
         let itemPop = 0;
         for (let item of data.items) {
+
           item.rank = classement;
           classement++;
           itemPop += item.popularity;
+          
         }
         data.moyRank = Math.floor(itemPop / data.items.length);
         whatToDo(data);
