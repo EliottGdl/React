@@ -21,14 +21,4 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
-  }
-
- 
-  
-  body {
-      background-image: url("background.jpg");
-      background-repeat: no-repeat;
-        background-size: 1560px;
-
-
-  }
+}
