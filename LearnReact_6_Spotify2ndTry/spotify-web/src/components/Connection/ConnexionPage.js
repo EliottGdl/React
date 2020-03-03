@@ -1,5 +1,7 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
 import { id } from "./conf";
+import Button from '@material-ui/core/Button';
+import "../../connexion.css";
 
 const authEndpoint = "https://accounts.spotify.com/authorize";
 
@@ -12,17 +14,18 @@ const scopes = [
   "user-top-read"
 ];
 
-
 export default class ConnexionPage extends Component {
-    render() {
-        return (
-            <a
-            className="btn btn--loginApp-link"
-            href={`${authEndpoint}?client_id=${clientId}&redirect_uri=${redirectUri}&scope=${scopes.join(
-              "%20"
-            )}&response_type=token&show_dialog=true`}>
-                Connexion
-            </a>
-        )
-    }
+  render() {
+    return (
+      <a
+        className="btn btn--loginApp-link"
+        href={`${authEndpoint}?client_id=${clientId}&redirect_uri=${redirectUri}&scope=${scopes.join(
+          "%20"
+        )}&response_type=token&show_dialog=true`}
+      >
+        
+          Connexion
+      </a>
+    );
+  }
 }

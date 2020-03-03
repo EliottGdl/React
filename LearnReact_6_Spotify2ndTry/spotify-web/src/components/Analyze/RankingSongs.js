@@ -37,7 +37,7 @@ export default ({ sg, title }) => {
               subtitle={
                 <span>
                   {" "}
-                  Rank : {song.rank} Popularity : {song.popularity}
+                  Rank : {song.rank} Popularity: {song.popularity}
                 </span>
               }
               actionIcon={
