@@ -1,21 +1,29 @@
 import React, { Component } from 'react'
-import {View,Button,TextInput,StyleSheet} from 'react-native';
+import {View,Button,TextInput,StyleSheet,FlatList,Text} from 'react-native';
+import {films} from "../Helpers/filmsData";
+import FilmItem from "./FilmItem";
 
 export default class Search extends Component {
     render() {
         return (
-            <View style={styles.vue}>
+            <View style={styles.container}>
                 <TextInput style={[styles.inputs,styles.spaceAllAround]} placeholder="Titre du film"></TextInput>
                 {/** Buttons can't have any style, you need to create a TouchableNativeFeedback */}
                 <Button title="Rechercher" onPress={()=>{}}/>
+                <FlatList
+                    data={films}
+                    keyExtractor={(item) => item.id.toString()}
+                    renderItem={({ item }) => <FilmItem film={item}/>}
+                 />
             </View>
         )
     }
 }
 
 const styles = StyleSheet.create({
-    vue: {
+    container: {
       marginTop : 20,
+      flex:1,
     },
 
     spaceAllAround: {
