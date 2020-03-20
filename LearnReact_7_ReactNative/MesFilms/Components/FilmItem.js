@@ -19,7 +19,7 @@ export default ({film}) => {
 
                 </View>
                 <View style={{flex:1}}>
-                    <Text style={styles.date_text}> Sorti le {film.release_date} </Text>
+                    <Text style={styles.date_text}> Sorti le : {film.release_date} </Text>
                 </View>
             </View>
         </View>
