@@ -12,6 +12,8 @@ export default class Search extends Component {
           films: [],
           isLoading:false,
         }
+        this.page = 0;
+        this.totalPages = 0;
         this.searchedText = ""
     }
 
@@ -23,6 +25,14 @@ export default class Search extends Component {
         }
     }
 
+    _searchFilms() {
+        this.page = 0;
+        this.totalPages = 0
+        this.setState({
+            films:[]
+        }, () => this._loadFilms());
+    }
+
     _searchTextInputChange(text) {
         this.searchedText=text;
     }
@@ -30,7 +40,12 @@ export default class Search extends Component {
     _loadFilms() {
         if(this.searchedText.length > 0) {
             this.setState({isLoading:true})
-            getFilmsFromApiWithSearchedText(this.searchedText).then(data => this.setState({ films: data.results,isLoading:false }))
+            getFilmsFromApiWithSearchedText(this.searchedText,this.page + 1).then(data => {
+                this.page = data.page;
+                this.totalPages = data.total_pages;
+                this.setState({ films: [...this.state.films,...data.results],
+                    isLoading:false })
+            })
         }
     }
 
@@ -38,14 +53,21 @@ export default class Search extends Component {
 
         return (
             <View style={styles.container}>
-                <TextInput onSubmitEditing={() => this._loadFilms()} onChangeText={(text) => this._searchTextInputChange(text)}  style={[styles.inputs,styles.spaceAllAround]} placeholder="Titre du film"></TextInput>
+                <TextInput onSubmitEditing={() => this._searchFilms()} onChangeText={(text) => this._searchTextInputChange(text)}  style={[styles.inputs,styles.spaceAllAround]} placeholder="Titre du film"></TextInput>
                 {/** Buttons can't have any style, you need to create a TouchableNativeFeedback */}
-                <Button title="Rechercher" onPress={() => this._loadFilms()}/>
+                <Button title="Rechercher" onPress={() => this._searchFilms()}/>
                 {this._displayLoading()}
                 <FlatList
                     data={this.state.films}
-                    keyExtractor={(item) => item.id.toString()}
                     renderItem={({ item }) => <FilmItem film={item}/>}
+                    keyExtractor={(item) => item.id.toString()}
+                    onEndReachedThreshold={0.5}
+                    onEndReached= {() => {
+                        if(this.state.films.length > 0 && this.page < this.totalPages) {
+                            this._loadFilms();
+                            console.log("e")
+                        }
+                    }}
                  />
             </View>
         )
