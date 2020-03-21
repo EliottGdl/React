@@ -2,11 +2,12 @@ import React from "react";
 import {StyleSheet,View,Text,Image} from 'react-native';
 
 export default ({film}) => {
+    console.log()
     return (
         <View style={styles.container}>
             <Image 
                 style={styles.image}
-                source={{uri:"image"}}
+                source={{uri:"https://image.tmdb.org/t/p/w500"+film.poster_path}}
             />
 
             <View style={{flex:2,flexDirection:"column"}} > 
@@ -42,9 +43,8 @@ const styles = StyleSheet.create({
 
     title_text: {
         fontWeight: 'bold',
-        fontSize: 20,
+        fontSize: 15,
         flex: 1,
-        flexWrap: 'wrap',
         paddingRight: 5
     },
 
