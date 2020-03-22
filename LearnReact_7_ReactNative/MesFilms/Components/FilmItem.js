@@ -1,10 +1,9 @@
 import React from "react";
-import {StyleSheet,View,Text,Image} from 'react-native';
+import {StyleSheet,View,Text,Image,TouchableOpacity} from 'react-native';
 
-export default ({film}) => {
-    console.log()
+export default ({film,displayDetailForFilm}) => {
     return (
-        <View style={styles.container}>
+        <TouchableOpacity onPress={() => displayDetailForFilm(film.id)} style={styles.container}>
             <Image 
                 style={styles.image}
                 source={{uri:"https://image.tmdb.org/t/p/w500"+film.poster_path}}
@@ -23,7 +22,7 @@ export default ({film}) => {
                     <Text style={styles.date_text}> Sorti le : {film.release_date} </Text>
                 </View>
             </View>
-        </View>
+        </TouchableOpacity>
     )
 }
 

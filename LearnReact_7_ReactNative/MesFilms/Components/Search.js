@@ -17,6 +17,10 @@ export default class Search extends Component {
         this.searchedText = ""
     }
 
+    _displayDetailForFilm = (idFilm) => {
+        this.props.navigation.navigate("Details", {idFilm:idFilm});
+    }
+
     _displayLoading() {
         if(this.state.isLoading) {
             return (<View style={styles.loading}>
@@ -59,7 +63,7 @@ export default class Search extends Component {
                 {this._displayLoading()}
                 <FlatList
                     data={this.state.films}
-                    renderItem={({ item }) => <FilmItem film={item}/>}
+                    renderItem={({ item }) => <FilmItem displayDetailForFilm={this._displayDetailForFilm} film={item}/>}
                     keyExtractor={(item) => item.id.toString()}
                     onEndReachedThreshold={0.5}
                     onEndReached= {() => {
@@ -76,7 +80,6 @@ export default class Search extends Component {
 
 const styles = StyleSheet.create({
     container: {
-      marginTop : 20,
       flex:1,
     },
 
