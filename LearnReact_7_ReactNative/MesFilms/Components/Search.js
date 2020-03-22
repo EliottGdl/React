@@ -18,7 +18,7 @@ export default class Search extends Component {
     }
 
     _displayDetailForFilm = (idFilm) => {
-        this.props.navigation.navigate("Details", {idFilm:idFilm});
+        this.props.navigation.navigate("Details", {id:idFilm});
     }
 
     _displayLoading() {
