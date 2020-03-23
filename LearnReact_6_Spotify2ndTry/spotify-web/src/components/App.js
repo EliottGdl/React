@@ -2,6 +2,7 @@ import React, { Component, Fragment } from "react";
 import ConnectionPage from "./Connection/ConnexionPage";
 import Index from "./Analyze/index";
 import $ from "jquery";
+import "../index.css";
 
 const hash = window.location.hash
   .substring(1)
