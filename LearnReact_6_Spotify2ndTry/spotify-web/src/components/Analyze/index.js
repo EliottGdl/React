@@ -15,9 +15,10 @@ const useStyles = makeStyles(theme => ({
   root: {
     display: "flex",
     flexWrap: "wrap",
-    justifyContent: "space-around",
+    height:1080,
+    justifyContent: "center",
     overflow: "hidden",
-    backgroundColor: theme.palette.background.paper
+    background: `linear-gradient(#21e389, #0005ff)`
   }
 }));
 
@@ -25,12 +26,11 @@ const styles = {
   Paper: {
     textAlign:"center",
     display: "flex",
-    justifyContent: "space-around",
+    justifyContent: "center",
     flexWrap: "wrap",
     padding: 20,
-    marginTop: 10,
-    marginBottom: 10,
-    height: 400,
+    margin:20,
+    minHeight: 500,
     width: 300,
     overflowY: "auto"
   }
@@ -54,12 +54,38 @@ export default ({ getData, token }) => {
     art2: undefined
   });
 
+  const handleDates = () => {
+    if(songs.song1) {
+      
+      let average = ({items}) => {
+        let dates = 0;
+        for(let s of items) {
+          let del = s.album.release_date.split("-");
+          
+          if(del[1]) {
+            del[0] = parseInt(del[1]) > 6 ? parseInt(del[0]) + 1 : parseInt(del[0]);            
+          }
+
+          dates += parseInt(del[0]);
+        }
+  
+        return Math.round(dates / songs.song1.items.length)
+      }
+      
+      let dates = average(songs.song1)
+      let dates1 = average(songs.song2)
+
+      return (dates + " | " + dates1)
+    }
+    return <LinearProgress/>
+    
+  }
+
   const handleChange = () => {
     setIsSong(!isSongs);
   };
 
   const handleDisconnect = () => {
-    console.log("ee")
     document.cookie = "token=; expires= Thu, 01 Jan 1970 00:00:00 GMT";
     window.location.reload(true);
   }
@@ -94,6 +120,7 @@ export default ({ getData, token }) => {
 
     await getData(token, "long_term", d => (s1 = d), kindOf);
     await getData(token, "short_term", d => (s2 = d), kindOf);
+    
     if (isSongs) {
       bpm(s1,s2)
 
@@ -140,7 +167,7 @@ export default ({ getData, token }) => {
       )}
 
 
-      <div>
+      <div style={{flex:1,flexDirection:"column",justifyContent:"center",maxWidth:380}}>
       <Paper style={styles.Paper}>
           <Typography variant="h3" gutterBottom>
             POPULARITY
@@ -152,6 +179,11 @@ export default ({ getData, token }) => {
             <br />
             {isSongs ? tempo.t1 ? tempo.t1 + " | " + tempo.t2 : <LinearProgress />
                         : "Rien"}
+            <br/>
+            <br/>
+            {isSongs ?  <Typography variant="h3" gutterBottom> AVERAGE <br/> YEAR <br/>  </Typography>: ""}
+            
+            {handleDates()}
           </Typography>
 
         <FormControlLabel
@@ -159,7 +191,7 @@ export default ({ getData, token }) => {
           label="Artists or Songs"
         />
       </Paper>
-      <Button onClick={handleDisconnect} style={{width:340}} variant="contained" color="secondary">
+      <Button onClick={handleDisconnect} style={{width:340,margin:20}} variant="contained" color="secondary">
         Disconnect
       </Button>
       </div>

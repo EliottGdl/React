@@ -68,10 +68,10 @@ export default class App extends Component {
   render () {
 
     return (
-      <div>
+      <React.Fragment>
         {!this.state.token ? 
         <ConnectionPage/> : <Index token = {this.state.token} getData = {this.getWhatIlistend} />}
-      </div>
+      </React.Fragment>
     )
   }
   

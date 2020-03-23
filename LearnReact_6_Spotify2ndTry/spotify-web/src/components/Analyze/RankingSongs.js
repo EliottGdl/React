@@ -6,11 +6,15 @@ import GridListTileBar from "@material-ui/core/GridListTileBar";
 import ListSubheader from "@material-ui/core/ListSubheader";
 import IconButton from "@material-ui/core/IconButton";
 import InfoIcon from "@material-ui/icons/Info";
+import Paper from "@material-ui/core/Paper";
 
 const useStyles = makeStyles(theme => ({
   gridList: {
-    width: 400,
-    height: 600
+    width: 500,
+    backgroundColor:"white",
+    height: 810,
+    paddingTop:5,
+    paddingBottom:5,
   },
   icon: {
     color: "rgba(255, 255, 255, 0.54)"
@@ -25,7 +29,8 @@ export default ({ sg, title }) => {
   }
 
   return (
-      <GridList cellHeight={180} className={classes.gridList}>
+    <Paper style={{marginTop:20,backgroundColor: 'rgba(0,0,0,0)'}}>
+      <GridList cellHeight={250} className={classes.gridList}>
         <GridListTile key="Subheader" cols={2} style={{ height: "auto" }}>
           <ListSubheader component="div"> {title} </ListSubheader>
         </GridListTile>
@@ -53,6 +58,6 @@ export default ({ sg, title }) => {
           </GridListTile>
         ))}
       </GridList>
-      
+    </Paper>
   );
 };
