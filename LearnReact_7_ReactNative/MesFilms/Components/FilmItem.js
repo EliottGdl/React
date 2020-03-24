@@ -1,7 +1,28 @@
 import React from "react";
 import {StyleSheet,View,Text,Image,TouchableOpacity} from 'react-native';
+import { connect } from "react-redux";
 
-export default ({film,displayDetailForFilm}) => {
+const mapStateToProps = (state) => {
+    return {
+        favoritesFilm: state.favoritesFilm
+    };
+}
+
+export default connect(mapStateToProps) (({film,displayDetailForFilm,favoritesFilm}) => {
+
+    let displayImage = () => {
+        if(favoritesFilm.findIndex(item => item.id === film.id) !== -1) {
+            let img = require('../Image/favorite.png');
+
+            return (
+                <Image 
+                    style={styles.image2}
+                    source={img}
+                />
+            )
+        }
+    }
+
     return (
         <TouchableOpacity onPress={() => displayDetailForFilm(film.id)} style={styles.container}>
             <Image 
@@ -11,6 +32,8 @@ export default ({film,displayDetailForFilm}) => {
 
             <View style={{flex:2,flexDirection:"column"}} > 
                 <View style={{flex:3,flexDirection:"row"}}>
+
+                    {displayImage()}
                     <Text style={[styles.title_text,{flex:2}]}> {film.title} </Text>
                     <Text style={styles.vote_text}> {film.vote_average} </Text>
                 </View>
@@ -24,13 +47,18 @@ export default ({film,displayDetailForFilm}) => {
             </View>
         </TouchableOpacity>
     )
-}
+})
 
 const styles = StyleSheet.create({
     container: {
       marginTop : 20,
       flex:1,
       flexDirection:"row",
+    },
+
+    image2: {
+        width:30,
+        height:30
     },
 
     image: {

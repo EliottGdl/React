@@ -24,9 +24,9 @@ class FilmDetail extends Component {
     }
 
     _displayFavoriteImage() {
-        var sourceImage = require('../Image/notfavorite');
+        var sourceImage = require('../Image/notfavorite.png');
         if(this.props.favoritesFilm.findIndex(item => item.id === this.state.film.id) !== -1) {
-            sourceImage = require('../Image/favorite');
+            sourceImage = require('../Image/favorite.png');
         }
         return (
             <Image source={sourceImage} style={styles.favorite_image}/>
@@ -39,7 +39,7 @@ class FilmDetail extends Component {
     }
 
     componentDidUpdate() {
-        console.log(this.props.favoritesFilm);
+        //console.log(this.props.favoritesFilm);
     }
 
     _displayFilm() {
