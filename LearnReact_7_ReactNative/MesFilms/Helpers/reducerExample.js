@@ -3,6 +3,10 @@ function reducerProfil(state,action) {
 
     switch(action.type) {
         case 'ADD_PROFIL':
+            nextState = {
+                ...state,
+                profil:action.value
+            }
             return nextState;
         case 'UPDATE_PROFIL':
             return nextState

@@ -3,8 +3,9 @@ import {StyleSheet,View,Text,Image,ActivityIndicator,ScrollView} from 'react-nat
 import { getFilmDetailFromApi } from "../Api/TDMApi";
 import moment from 'moment'
 import numeral from 'numeral'
+import {connect} from 'react-redux';
 
-export default class FilmDetail extends Component {
+class FilmDetail extends Component {
 
     constructor(props) {
         super(props);
@@ -119,3 +120,11 @@ const styles = StyleSheet.create({
     }
 
 })
+
+const mapStateToProps = (state) => {
+    return {
+        favoritesFilm : state.favoritesFilm
+    };
+}
+
+export default connect(mapStateToProps)(FilmDetail)
