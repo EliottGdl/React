@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {StyleSheet,View,Text,Image,ActivityIndicator,ScrollView} from 'react-native';
+import {StyleSheet,View,Text,Image,ActivityIndicator,ScrollView,TouchableOpacity} from 'react-native';
 import { getFilmDetailFromApi } from "../Api/TDMApi";
 import moment from 'moment'
 import numeral from 'numeral'
@@ -23,6 +23,25 @@ class FilmDetail extends Component {
         }
     }
 
+    _displayFavoriteImage() {
+        var sourceImage = require('../Image/notfavorite');
+        if(this.props.favoritesFilm.findIndex(item => item.id === this.state.film.id) !== -1) {
+            sourceImage = require('../Image/favorite');
+        }
+        return (
+            <Image source={sourceImage} style={styles.favorite_image}/>
+        )
+    }
+
+    _toggleFavorite() {
+        const action = { type : "TOGGLE_FAVORITE", value : this.state.film}
+        this.props.dispatch(action)
+    }
+
+    componentDidUpdate() {
+        console.log(this.props.favoritesFilm);
+    }
+
     _displayFilm() {
 
         const film = this.state.film;
@@ -35,6 +54,9 @@ class FilmDetail extends Component {
                     source={{uri:"https://image.tmdb.org/t/p/w300"+film.backdrop_path}}
                     />
                     <Text style={styles.title_text}> {film.title} </Text>
+                    <TouchableOpacity onPress={() => this._toggleFavorite()} style={styles.favorite_container}> 
+                        {this._displayFavoriteImage()}
+                    </TouchableOpacity>  
                     <Text style={styles.description_text}> {film.overview} </Text>
                     <Text style={styles.default_text}>Sorti le {moment(new Date(film.release_date)).format('DD/MM/YYYY')}</Text>
                     <Text style={styles.default_text}>Note : {film.vote_average} / 10</Text>
@@ -79,6 +101,10 @@ const styles = StyleSheet.create({
     main_container: {
         flex:1,
     },
+    
+    favorite_container: {
+        alignItems:'center',
+    },
 
     loading:{
         position:"absolute",
@@ -88,6 +114,11 @@ const styles = StyleSheet.create({
         bottom:0,
         alignItems:'center',
         justifyContent:'center'
+    },
+
+    favorite_image:{
+        width:40,
+        height:40,
     },
 
     title_text: {
