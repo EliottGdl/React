@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {StyleSheet,View,Text,Image,ActivityIndicator,ScrollView,TouchableOpacity} from 'react-native';
+import {Alert,Share,StyleSheet,View,Text,Image,ActivityIndicator,ScrollView,TouchableOpacity, Platform} from 'react-native';
 import { getFilmDetailFromApi } from "../Api/TDMApi";
 import moment from 'moment'
 import numeral from 'numeral'
@@ -13,6 +13,42 @@ class FilmDetail extends Component {
             film:undefined,
             isLoading:true,
         };
+    }  
+
+    _shareFilm() {
+        const {film} = this.state;
+        Share.share({title:film.title,message:film.overview})
+            .then(
+                Alert.alert(
+                    'Succes',
+                    'Film partagé',
+                    [
+                        {text:'OK',onPress: () => {}}
+                    ]
+                )
+            )
+            .catch(err =>
+                Alert.alert(
+                    'Echec',
+                    'Film non partagé',
+                    [
+                        {text:'OK',onPress: () => {}}
+                    ]
+                )
+            )
+    }
+
+    _displayFloatingActionButton() {
+        const {film} = this.state
+        if(film != undefined && Platform.OS === 'android') {
+            return (
+                <TouchableOpacity>
+                    <Image>
+                        
+                    </Image>
+                </TouchableOpacity>
+            )
+        }
     }
 
     _displayLoading() {

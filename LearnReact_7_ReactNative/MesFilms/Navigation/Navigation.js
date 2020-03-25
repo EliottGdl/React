@@ -6,6 +6,7 @@ import { MaterialCommunityIcons } from 'react-native-vector-icons';
 import Search from "../Components/Search";
 import FilmDetail from "../Components/FilmDetail";
 import Favorites from "../Components/Favorites";
+import Test from "../Components/Test"
 
 const Stack = createStackNavigator();
 
@@ -36,7 +37,8 @@ function MyTabs() {
     <MoviesTabNavigator.Navigator
       tabBarOptions={{
       }}
-    >
+    > 
+
       <MoviesTabNavigator.Screen
         name="Rechercher"
         component={MyStack}
