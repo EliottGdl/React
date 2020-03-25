@@ -46,7 +46,7 @@ class FilmDetail extends Component {
 
         const film = this.state.film;
         if(film) {
-            console.log("https://image.tmdb.org/t/p/w300"+film.backdrop_path);
+
             return (
                 <ScrollView style={styles.scrollViewContainer}> 
                     <Image
