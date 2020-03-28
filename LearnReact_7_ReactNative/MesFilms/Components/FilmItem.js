@@ -1,5 +1,5 @@
-import React from "react";
-import {StyleSheet,View,Text,Image,TouchableOpacity} from 'react-native';
+import React, { useState , useEffect} from "react";
+import {StyleSheet,View,Text,Image,TouchableOpacity,Animated,Dimensions} from 'react-native';
 import { connect } from "react-redux";
 
 const mapStateToProps = (state) => {
@@ -8,11 +8,21 @@ const mapStateToProps = (state) => {
     };
 }
 
-export default connect(mapStateToProps) (({film,displayDetailForFilm,favoritesFilm}) => {
+export default  connect(mapStateToProps)(({film,displayDetailForFilm,favoritesFilm}) => {
+    
+    const left = new Animated.Value(Dimensions.get("window").width);
+
+    useEffect(() => {
+        Animated.timing(left, {
+        toValue: 0,
+        duration: 500
+        }).start();
+    }, []);
 
     let displayImage = () => {
         if(favoritesFilm.findIndex(item => item.id === film.id) !== -1) {
             let img = require('../Image/favorite.png');
+
 
             return (
                 <Image 
@@ -24,6 +34,7 @@ export default connect(mapStateToProps) (({film,displayDetailForFilm,favoritesFi
     }
 
     return (
+        <Animated.View style={{left}}>
         <TouchableOpacity onPress={() => displayDetailForFilm(film.id)} style={styles.container}>
             <Image 
                 style={styles.image}
@@ -46,6 +57,7 @@ export default connect(mapStateToProps) (({film,displayDetailForFilm,favoritesFi
                 </View>
             </View>
         </TouchableOpacity>
+        </Animated.View>
     )
 })
 
