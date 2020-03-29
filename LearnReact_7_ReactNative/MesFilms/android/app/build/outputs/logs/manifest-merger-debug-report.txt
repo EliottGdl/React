@@ -1,0 +1,527 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml:1:1-48:12
+INJECTED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml:1:1-48:12
+INJECTED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml:1:1-48:12
+INJECTED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml:1:1-48:12
+MERGED from [:expo-permissions] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\expo-permissions\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-screens] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\react-native-screens\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-react-native-adapter] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-gesture-handler] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-reanimated] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\react-native-reanimated\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-community_masked-view] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\@react-native-community\masked-view\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-safe-area-context] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\react-native-safe-area-context\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-vector-icons] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\react-native-vector-icons\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.react:react-native:0.61.5] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\jetified-react-native-0.61.5.aar\a302efba86d980c81b92c50b3b6620b6\AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.material:material:1.1.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\material-1.1.0.aar\41bb1296adc8779b0ec592aa8f3c04f8\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\appcompat-1.1.0.aar\94d80d11bd21dcf7f0239b8c72f62012\AndroidManifest.xml:17:1-24:12
+MERGED from [:expo-app-loader-provider] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\expo-app-loader-provider\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-constants] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\expo-constants\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-error-recovery] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\expo-error-recovery\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-file-system] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-30:12
+MERGED from [:expo-font] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\expo-font\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-keep-awake] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\expo-keep-awake\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-linear-gradient] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\expo-linear-gradient\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-location] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-21:12
+MERGED from [:expo-sqlite] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\expo-sqlite\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-web-browser] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\expo-web-browser\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-barcode-scanner-interface] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\unimodules-barcode-scanner-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-camera-interface] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\unimodules-camera-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-constants-interface] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\unimodules-constants-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-face-detector-interface] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\unimodules-face-detector-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-file-system-interface] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\unimodules-file-system-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-font-interface] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\unimodules-font-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-permissions-interface] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\unimodules-permissions-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-task-manager-interface] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\unimodules-task-manager-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-core] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\@unimodules\core\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-image-loader-interface] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\unimodules-image-loader-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-sensors-interface] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\unimodules-sensors-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [org.webkit:android-jsc:r245459] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\android-jsc-r245459.aar\8a9b77060e7cbf9496148cb7d6b8311c\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\browser-1.0.0.aar\6d23161bd96a6f5767eba26b5a12919c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\jetified-glide-4.9.0.aar\aabacddad4278e40f6689fd3e815963f\AndroidManifest.xml:2:1-12:12
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\jetified-play-services-location-16.0.0.aar\e9977461496757106551096e3e44a5d1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\d0eccda42258bc0b73140755e14455d4\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-16.0.0.aar\9418f10965ba27b25956c67101e9c576\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\jetified-play-services-tasks-16.0.1.aar\07c801df6c3d6f029db00baafe4abb80\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.0.1.aar\5360106f49ce5aa0e742d23c7d434dd3\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\legacy-support-v4-1.0.0.aar\41a9661b4a889dd58ecb408d45ea4851\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\viewpager2-1.0.0.aar\ecd88217dbe5881e1140df727eb296ed\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.2.1] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\fragment-1.2.1.aar\4a16274d395a51aecc67b84ff01dc282\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0.aar\4504720c8bcaeaf00c479792f11a2e4d\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.1.0.aar\17d9e05876b8639f20cf7bd5e99c09cb\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0.aar\c164c4be70d58a8d6cd9b2736ba76b30\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\media-1.0.0.aar\1d4387a1cc9b896205c7eacd3f657867\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0.aar\e23bb32e801e16c7fdfec0d6f87575b9\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\appcompat-resources-1.1.0.aar\4e184d0a59137aeb598b6c162b984ba7\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\vectordrawable-animated-1.1.0.aar\39023d085fca9ad57c96ff63ba361600\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\84cb671ebdd52251bd94aa45660cec03\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\3e95fbb4afc163147855d833cffae46a\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\6e8cbce19460abe286c065b353c386ea\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\3d27ada12832ef7eabc80dc7ba563a2a\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\activity-1.1.0.aar\e67c040579c5771fdd21e56396cb5b6e\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0.aar\190495f0dbaf1459f3083173b27df85a\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\recyclerview-1.1.0.aar\ba1f388a95162778368fa77d3bba7385\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\b76bbf022dc0d60e084c8053329f98e5\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\transition-1.2.0.aar\106fdc3db83f581e27ba1f0f5b8cc0f0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\vectordrawable-1.1.0.aar\6be94edbd602fd20a57c88b2134afda3\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0.aar\682fd3a2032d59b333509fa6c81d4d58\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\core-1.1.0.aar\4b57f25ca931713e45f9236c6c7e175c\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\6c15e0342634acf4bd61aefdd74eca46\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0.aar\c926b4f62f9024a226144a36bc54a538\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-savedstate-2.2.0.aar\2ee69b3d627bbd9d4a3d472940baa5d3\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.2.0.aar\1eb76daf5fe7655a4b08b6635c8d45cd\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\cardview-1.0.0.aar\59c502642e415aa7feb0ca9847b94601\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0.aar\76f3fc09902487fc0ec1af6ee4f1ef05\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\7d6f47355d3b930fd2bbe3dfaefc4038\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\print-1.0.0.aar\d06f3f41bfe6f21359392afdd96f9140\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.2.0.aar\6801ff20b90cd9adc68f08f6c6ba70ac\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\savedstate-1.0.0.aar\09343eb9a893d7e2a841c2af7076fe6b\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\cd749cc9ee557c3d97893a4fca9d3a2b\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.2.0.aar\692d12d96ddb4c69125d3849b3a6c0bb\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\core-runtime-2.1.0.aar\31a2f9a634f2436ba3573c9759dbe3c5\AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\jetified-gifdecoder-4.9.0.aar\b39ebd6a3062e658fec2ce874cdc9500\AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.fresco:fresco:2.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\fresco-2.0.0.aar\850a0025d83a4c2be83c7634be332c74\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-2.0.0.aar\8d1db37b7253991b9e4f1d93a6a1cd47\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:2.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\drawee-2.0.0.aar\05edc7a29375f911b8bae265312fac88\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\nativeimagefilters-2.0.0.aar\1c570bd7ce715f7c6de615758dd8ae6f\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\imagepipeline-2.0.0.aar\043dd1eafe9cc9b57b5f9bc31a1ad6de\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\nativeimagetranscoder-2.0.0.aar\a7e50c2901abbbad63ff841d3c86fd99\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-2.0.0.aar\8fe7e15569f0323af221ca4e6ed8528d\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\soloader-0.6.0.aar\8bdbcfae1feecf65005a6d778f38b4bd\AndroidManifest.xml:2:1-13:12
+MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\51ba94edc410c3dca5869639669c4e06\AndroidManifest.xml:2:1-30:12
+MERGED from [com.facebook.fresco:fbcore:2.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\jetified-fbcore-2.0.0.aar\0523834cd314c7dcaaca95cfc23b8fe6\AndroidManifest.xml:2:1-9:12
+INJECTED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml:1:1-48:12
+INJECTED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml:1:1-48:12
+INJECTED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml:1:1-48:12
+	package
+		ADDED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml:2:5-30
+		INJECTED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml:1:1-48:12
+		INJECTED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml:1:1-48:12
+		INJECTED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml:4:5-67
+MERGED from [:expo-file-system] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-67
+MERGED from [:expo-file-system] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml:4:22-64
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml:5:5-77
+	android:name
+		ADDED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml:5:22-75
+uses-permission#android.permission.MANAGE_DOCUMENTS
+ADDED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml:8:5-75
+	android:name
+		ADDED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml:8:22-72
+uses-permission#android.permission.READ_INTERNAL_STORAGE
+ADDED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml:9:5-80
+	android:name
+		ADDED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml:9:22-77
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml:10:5-75
+	android:name
+		ADDED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml:10:22-72
+uses-permission#android.permission.USE_FINGERPRINT
+ADDED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml:11:5-74
+	android:name
+		ADDED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml:11:22-71
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml:12:5-66
+	android:name
+		ADDED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml:12:22-63
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml:13:5-80
+	android:name
+		ADDED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml:13:22-77
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml:16:5-81
+MERGED from [:expo-location] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-81
+MERGED from [:expo-location] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-81
+MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\51ba94edc410c3dca5869639669c4e06\AndroidManifest.xml:12:5-81
+MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\51ba94edc410c3dca5869639669c4e06\AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml:16:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml:17:5-79
+MERGED from [:expo-location] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-79
+MERGED from [:expo-location] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-79
+MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\51ba94edc410c3dca5869639669c4e06\AndroidManifest.xml:14:5-79
+MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\51ba94edc410c3dca5869639669c4e06\AndroidManifest.xml:14:5-79
+	android:name
+		ADDED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml:17:22-76
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml:18:5-65
+	android:name
+		ADDED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml:18:22-62
+uses-permission#android.permission.READ_CONTACTS
+ADDED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml:19:5-72
+	android:name
+		ADDED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml:19:22-69
+uses-permission#android.permission.READ_CALENDAR
+ADDED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml:20:5-72
+	android:name
+		ADDED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml:20:22-69
+uses-permission#android.permission.WRITE_CALENDAR
+ADDED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml:21:5-73
+	android:name
+		ADDED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml:21:22-70
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml:22:5-80
+MERGED from [:expo-file-system] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:5-80
+MERGED from [:expo-file-system] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:5-80
+	android:name
+		ADDED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml:22:22-77
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml:23:5-71
+	android:name
+		ADDED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml:23:22-68
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml:24:5-81
+MERGED from [:expo-file-system] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-81
+MERGED from [:expo-file-system] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml:24:22-78
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml:25:5-73
+	android:name
+		ADDED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml:25:22-70
+application
+ADDED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml:28:5-46:19
+MERGED from [com.facebook.react:react-native:0.61.5] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\jetified-react-native-0.61.5.aar\a302efba86d980c81b92c50b3b6620b6\AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.61.5] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\jetified-react-native-0.61.5.aar\a302efba86d980c81b92c50b3b6620b6\AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.material:material:1.1.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\material-1.1.0.aar\41bb1296adc8779b0ec592aa8f3c04f8\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\material-1.1.0.aar\41bb1296adc8779b0ec592aa8f3c04f8\AndroidManifest.xml:22:5-20
+MERGED from [:expo-file-system] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:5-28:19
+MERGED from [:expo-file-system] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:5-28:19
+MERGED from [:expo-location] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-19:19
+MERGED from [:expo-location] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-19:19
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\jetified-glide-4.9.0.aar\aabacddad4278e40f6689fd3e815963f\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\jetified-glide-4.9.0.aar\aabacddad4278e40f6689fd3e815963f\AndroidManifest.xml:10:5-20
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\jetified-play-services-location-16.0.0.aar\e9977461496757106551096e3e44a5d1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\jetified-play-services-location-16.0.0.aar\e9977461496757106551096e3e44a5d1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\d0eccda42258bc0b73140755e14455d4\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\d0eccda42258bc0b73140755e14455d4\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-16.0.0.aar\9418f10965ba27b25956c67101e9c576\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-16.0.0.aar\9418f10965ba27b25956c67101e9c576\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\jetified-play-services-tasks-16.0.1.aar\07c801df6c3d6f029db00baafe4abb80\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\jetified-play-services-tasks-16.0.1.aar\07c801df6c3d6f029db00baafe4abb80\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.0.1.aar\5360106f49ce5aa0e742d23c7d434dd3\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.0.1.aar\5360106f49ce5aa0e742d23c7d434dd3\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.1.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\core-1.1.0.aar\4b57f25ca931713e45f9236c6c7e175c\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\core-1.1.0.aar\4b57f25ca931713e45f9236c6c7e175c\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0.aar\c926b4f62f9024a226144a36bc54a538\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0.aar\c926b4f62f9024a226144a36bc54a538\AndroidManifest.xml:24:5-25:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\jetified-gifdecoder-4.9.0.aar\b39ebd6a3062e658fec2ce874cdc9500\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\jetified-gifdecoder-4.9.0.aar\b39ebd6a3062e658fec2ce874cdc9500\AndroidManifest.xml:9:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\soloader-0.6.0.aar\8bdbcfae1feecf65005a6d778f38b4bd\AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\soloader-0.6.0.aar\8bdbcfae1feecf65005a6d778f38b4bd\AndroidManifest.xml:11:5-20
+MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\51ba94edc410c3dca5869639669c4e06\AndroidManifest.xml:18:5-28:19
+MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\51ba94edc410c3dca5869639669c4e06\AndroidManifest.xml:18:5-28:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\core-1.1.0.aar\4b57f25ca931713e45f9236c6c7e175c\AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml:30:7-39
+	android:roundIcon
+		ADDED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml:32:7-52
+	android:icon
+		ADDED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml:31:7-41
+	android:allowBackup
+		ADDED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml:33:7-34
+	android:theme
+		ADDED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml:34:7-38
+	android:name
+		ADDED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml:29:7-38
+activity#com.moviesandme.MainActivity
+ADDED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml:35:7-44:18
+	android:label
+		ADDED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml:37:9-41
+	android:windowSoftInputMode
+		ADDED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml:39:9-51
+	android:configChanges
+		ADDED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml:38:9-79
+	android:name
+		ADDED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml:36:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml:40:9-43:25
+action#android.intent.action.MAIN
+ADDED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml:41:13-65
+	android:name
+		ADDED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml:41:21-62
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml:42:13-73
+	android:name
+		ADDED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml:42:23-70
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml:45:7-84
+	android:name
+		ADDED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml:45:17-81
+uses-sdk
+INJECTED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml
+MERGED from [:expo-permissions] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\expo-permissions\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-permissions] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\expo-permissions\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-screens] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\react-native-screens\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-screens] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\react-native-screens\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-react-native-adapter] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-react-native-adapter] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\react-native-reanimated\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\react-native-reanimated\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-community_masked-view] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\@react-native-community\masked-view\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_masked-view] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\@react-native-community\masked-view\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-safe-area-context] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\react-native-safe-area-context\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-safe-area-context] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\react-native-safe-area-context\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-vector-icons] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\react-native-vector-icons\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\react-native-vector-icons\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.61.5] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\jetified-react-native-0.61.5.aar\a302efba86d980c81b92c50b3b6620b6\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.61.5] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\jetified-react-native-0.61.5.aar\a302efba86d980c81b92c50b3b6620b6\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.material:material:1.1.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\material-1.1.0.aar\41bb1296adc8779b0ec592aa8f3c04f8\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\material-1.1.0.aar\41bb1296adc8779b0ec592aa8f3c04f8\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\appcompat-1.1.0.aar\94d80d11bd21dcf7f0239b8c72f62012\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\appcompat-1.1.0.aar\94d80d11bd21dcf7f0239b8c72f62012\AndroidManifest.xml:20:5-22:41
+MERGED from [:expo-app-loader-provider] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\expo-app-loader-provider\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-app-loader-provider] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\expo-app-loader-provider\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-constants] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\expo-constants\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-constants] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\expo-constants\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-error-recovery] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\expo-error-recovery\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-error-recovery] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\expo-error-recovery\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-file-system] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-10:41
+MERGED from [:expo-file-system] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-10:41
+MERGED from [:expo-font] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\expo-font\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-font] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\expo-font\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-keep-awake] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\expo-keep-awake\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-keep-awake] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\expo-keep-awake\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-linear-gradient] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\expo-linear-gradient\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-linear-gradient] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\expo-linear-gradient\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-location] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-location] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-sqlite] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\expo-sqlite\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-sqlite] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\expo-sqlite\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-web-browser] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\expo-web-browser\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-web-browser] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\expo-web-browser\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-barcode-scanner-interface] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\unimodules-barcode-scanner-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-barcode-scanner-interface] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\unimodules-barcode-scanner-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-camera-interface] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\unimodules-camera-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-camera-interface] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\unimodules-camera-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-constants-interface] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\unimodules-constants-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-constants-interface] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\unimodules-constants-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-face-detector-interface] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\unimodules-face-detector-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-face-detector-interface] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\unimodules-face-detector-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-file-system-interface] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\unimodules-file-system-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-file-system-interface] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\unimodules-file-system-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-font-interface] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\unimodules-font-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-font-interface] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\unimodules-font-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-permissions-interface] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\unimodules-permissions-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-permissions-interface] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\unimodules-permissions-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-task-manager-interface] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\unimodules-task-manager-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-task-manager-interface] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\unimodules-task-manager-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-core] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\@unimodules\core\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-core] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\@unimodules\core\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-image-loader-interface] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\unimodules-image-loader-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-image-loader-interface] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\unimodules-image-loader-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-sensors-interface] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\unimodules-sensors-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-sensors-interface] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\unimodules-sensors-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r245459] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\android-jsc-r245459.aar\8a9b77060e7cbf9496148cb7d6b8311c\AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r245459] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\android-jsc-r245459.aar\8a9b77060e7cbf9496148cb7d6b8311c\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\browser-1.0.0.aar\6d23161bd96a6f5767eba26b5a12919c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\browser-1.0.0.aar\6d23161bd96a6f5767eba26b5a12919c\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\jetified-glide-4.9.0.aar\aabacddad4278e40f6689fd3e815963f\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\jetified-glide-4.9.0.aar\aabacddad4278e40f6689fd3e815963f\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\jetified-play-services-location-16.0.0.aar\e9977461496757106551096e3e44a5d1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\jetified-play-services-location-16.0.0.aar\e9977461496757106551096e3e44a5d1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\d0eccda42258bc0b73140755e14455d4\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\d0eccda42258bc0b73140755e14455d4\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-16.0.0.aar\9418f10965ba27b25956c67101e9c576\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-16.0.0.aar\9418f10965ba27b25956c67101e9c576\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\jetified-play-services-tasks-16.0.1.aar\07c801df6c3d6f029db00baafe4abb80\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\jetified-play-services-tasks-16.0.1.aar\07c801df6c3d6f029db00baafe4abb80\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.0.1.aar\5360106f49ce5aa0e742d23c7d434dd3\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.0.1.aar\5360106f49ce5aa0e742d23c7d434dd3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\legacy-support-v4-1.0.0.aar\41a9661b4a889dd58ecb408d45ea4851\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\legacy-support-v4-1.0.0.aar\41a9661b4a889dd58ecb408d45ea4851\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\viewpager2-1.0.0.aar\ecd88217dbe5881e1140df727eb296ed\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\viewpager2-1.0.0.aar\ecd88217dbe5881e1140df727eb296ed\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.1] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\fragment-1.2.1.aar\4a16274d395a51aecc67b84ff01dc282\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.1] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\fragment-1.2.1.aar\4a16274d395a51aecc67b84ff01dc282\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0.aar\4504720c8bcaeaf00c479792f11a2e4d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0.aar\4504720c8bcaeaf00c479792f11a2e4d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.1.0.aar\17d9e05876b8639f20cf7bd5e99c09cb\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.1.0.aar\17d9e05876b8639f20cf7bd5e99c09cb\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0.aar\c164c4be70d58a8d6cd9b2736ba76b30\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0.aar\c164c4be70d58a8d6cd9b2736ba76b30\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\media-1.0.0.aar\1d4387a1cc9b896205c7eacd3f657867\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\media-1.0.0.aar\1d4387a1cc9b896205c7eacd3f657867\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0.aar\e23bb32e801e16c7fdfec0d6f87575b9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0.aar\e23bb32e801e16c7fdfec0d6f87575b9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\appcompat-resources-1.1.0.aar\4e184d0a59137aeb598b6c162b984ba7\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\appcompat-resources-1.1.0.aar\4e184d0a59137aeb598b6c162b984ba7\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\vectordrawable-animated-1.1.0.aar\39023d085fca9ad57c96ff63ba361600\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\vectordrawable-animated-1.1.0.aar\39023d085fca9ad57c96ff63ba361600\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\84cb671ebdd52251bd94aa45660cec03\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\84cb671ebdd52251bd94aa45660cec03\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\3e95fbb4afc163147855d833cffae46a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\3e95fbb4afc163147855d833cffae46a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\6e8cbce19460abe286c065b353c386ea\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\6e8cbce19460abe286c065b353c386ea\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\3d27ada12832ef7eabc80dc7ba563a2a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\3d27ada12832ef7eabc80dc7ba563a2a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\activity-1.1.0.aar\e67c040579c5771fdd21e56396cb5b6e\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\activity-1.1.0.aar\e67c040579c5771fdd21e56396cb5b6e\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0.aar\190495f0dbaf1459f3083173b27df85a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0.aar\190495f0dbaf1459f3083173b27df85a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\recyclerview-1.1.0.aar\ba1f388a95162778368fa77d3bba7385\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\recyclerview-1.1.0.aar\ba1f388a95162778368fa77d3bba7385\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\b76bbf022dc0d60e084c8053329f98e5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\b76bbf022dc0d60e084c8053329f98e5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\transition-1.2.0.aar\106fdc3db83f581e27ba1f0f5b8cc0f0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\transition-1.2.0.aar\106fdc3db83f581e27ba1f0f5b8cc0f0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\vectordrawable-1.1.0.aar\6be94edbd602fd20a57c88b2134afda3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\vectordrawable-1.1.0.aar\6be94edbd602fd20a57c88b2134afda3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0.aar\682fd3a2032d59b333509fa6c81d4d58\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0.aar\682fd3a2032d59b333509fa6c81d4d58\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\core-1.1.0.aar\4b57f25ca931713e45f9236c6c7e175c\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\core-1.1.0.aar\4b57f25ca931713e45f9236c6c7e175c\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\6c15e0342634acf4bd61aefdd74eca46\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\6c15e0342634acf4bd61aefdd74eca46\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0.aar\c926b4f62f9024a226144a36bc54a538\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0.aar\c926b4f62f9024a226144a36bc54a538\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-savedstate-2.2.0.aar\2ee69b3d627bbd9d4a3d472940baa5d3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-savedstate-2.2.0.aar\2ee69b3d627bbd9d4a3d472940baa5d3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.2.0.aar\1eb76daf5fe7655a4b08b6635c8d45cd\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.2.0.aar\1eb76daf5fe7655a4b08b6635c8d45cd\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\cardview-1.0.0.aar\59c502642e415aa7feb0ca9847b94601\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\cardview-1.0.0.aar\59c502642e415aa7feb0ca9847b94601\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0.aar\76f3fc09902487fc0ec1af6ee4f1ef05\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0.aar\76f3fc09902487fc0ec1af6ee4f1ef05\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\7d6f47355d3b930fd2bbe3dfaefc4038\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\7d6f47355d3b930fd2bbe3dfaefc4038\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\print-1.0.0.aar\d06f3f41bfe6f21359392afdd96f9140\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\print-1.0.0.aar\d06f3f41bfe6f21359392afdd96f9140\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.2.0.aar\6801ff20b90cd9adc68f08f6c6ba70ac\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.2.0.aar\6801ff20b90cd9adc68f08f6c6ba70ac\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\savedstate-1.0.0.aar\09343eb9a893d7e2a841c2af7076fe6b\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\savedstate-1.0.0.aar\09343eb9a893d7e2a841c2af7076fe6b\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\cd749cc9ee557c3d97893a4fca9d3a2b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\cd749cc9ee557c3d97893a4fca9d3a2b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.2.0.aar\692d12d96ddb4c69125d3849b3a6c0bb\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.2.0.aar\692d12d96ddb4c69125d3849b3a6c0bb\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\core-runtime-2.1.0.aar\31a2f9a634f2436ba3573c9759dbe3c5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\core-runtime-2.1.0.aar\31a2f9a634f2436ba3573c9759dbe3c5\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\jetified-gifdecoder-4.9.0.aar\b39ebd6a3062e658fec2ce874cdc9500\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\jetified-gifdecoder-4.9.0.aar\b39ebd6a3062e658fec2ce874cdc9500\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\fresco-2.0.0.aar\850a0025d83a4c2be83c7634be332c74\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\fresco-2.0.0.aar\850a0025d83a4c2be83c7634be332c74\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-2.0.0.aar\8d1db37b7253991b9e4f1d93a6a1cd47\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-2.0.0.aar\8d1db37b7253991b9e4f1d93a6a1cd47\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\drawee-2.0.0.aar\05edc7a29375f911b8bae265312fac88\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\drawee-2.0.0.aar\05edc7a29375f911b8bae265312fac88\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\nativeimagefilters-2.0.0.aar\1c570bd7ce715f7c6de615758dd8ae6f\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\nativeimagefilters-2.0.0.aar\1c570bd7ce715f7c6de615758dd8ae6f\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\imagepipeline-2.0.0.aar\043dd1eafe9cc9b57b5f9bc31a1ad6de\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\imagepipeline-2.0.0.aar\043dd1eafe9cc9b57b5f9bc31a1ad6de\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\nativeimagetranscoder-2.0.0.aar\a7e50c2901abbbad63ff841d3c86fd99\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\nativeimagetranscoder-2.0.0.aar\a7e50c2901abbbad63ff841d3c86fd99\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-2.0.0.aar\8fe7e15569f0323af221ca4e6ed8528d\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-2.0.0.aar\8fe7e15569f0323af221ca4e6ed8528d\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\soloader-0.6.0.aar\8bdbcfae1feecf65005a6d778f38b4bd\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\soloader-0.6.0.aar\8bdbcfae1feecf65005a6d778f38b4bd\AndroidManifest.xml:7:5-9:41
+MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\51ba94edc410c3dca5869639669c4e06\AndroidManifest.xml:8:5-10:41
+MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\51ba94edc410c3dca5869639669c4e06\AndroidManifest.xml:8:5-10:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\jetified-fbcore-2.0.0.aar\0523834cd314c7dcaaca95cfc23b8fe6\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\jetified-fbcore-2.0.0.aar\0523834cd314c7dcaaca95cfc23b8fe6\AndroidManifest.xml:5:5-7:41
+INJECTED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\android\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.STORAGE
+ADDED from [:expo-file-system] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-66
+	android:name
+		ADDED from [:expo-file-system] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:22-63
+provider#expo.modules.filesystem.FileSystemFileProvider
+ADDED from [:expo-file-system] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:9-27:20
+	android:grantUriPermissions
+		ADDED from [:expo-file-system] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:13-47
+	android:authorities
+		ADDED from [:expo-file-system] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:13-74
+	android:exported
+		ADDED from [:expo-file-system] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:13-37
+	tools:replace
+		ADDED from [:expo-file-system] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:13-48
+	android:name
+		ADDED from [:expo-file-system] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-74
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:expo-file-system] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:13-26:70
+	android:resource
+		ADDED from [:expo-file-system] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:17-67
+	android:name
+		ADDED from [:expo-file-system] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:17-67
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [:expo-location] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-77
+	android:name
+		ADDED from [:expo-location] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:22-74
+service#expo.modules.location.services.LocationTaskService
+ADDED from [:expo-location] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-18:40
+	android:exported
+		ADDED from [:expo-location] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-37
+	android:name
+		ADDED from [:expo-location] C:\Users\eliot\Desktop\Programmation\React\LearnReact_7_ReactNative\MesFilms\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-78
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\d0eccda42258bc0b73140755e14455d4\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\d0eccda42258bc0b73140755e14455d4\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\d0eccda42258bc0b73140755e14455d4\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\d0eccda42258bc0b73140755e14455d4\AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.0.1.aar\5360106f49ce5aa0e742d23c7d434dd3\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.0.1.aar\5360106f49ce5aa0e742d23c7d434dd3\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.0.1.aar\5360106f49ce5aa0e742d23c7d434dd3\AndroidManifest.xml:24:13-58
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\51ba94edc410c3dca5869639669c4e06\AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\51ba94edc410c3dca5869639669c4e06\AndroidManifest.xml:13:22-76
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\51ba94edc410c3dca5869639669c4e06\AndroidManifest.xml:15:5-98
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\51ba94edc410c3dca5869639669c4e06\AndroidManifest.xml:15:22-95
+uses-permission#com.google.android.gms.permission.ACTIVITY_RECOGNITION
+ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\51ba94edc410c3dca5869639669c4e06\AndroidManifest.xml:16:5-94
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\51ba94edc410c3dca5869639669c4e06\AndroidManifest.xml:16:22-91
+service#io.nlopez.smartlocation.activity.providers.ActivityGooglePlayServicesProvider$ActivityRecognitionService
+ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\51ba94edc410c3dca5869639669c4e06\AndroidManifest.xml:19:9-21:40
+	android:exported
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\51ba94edc410c3dca5869639669c4e06\AndroidManifest.xml:21:13-37
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\51ba94edc410c3dca5869639669c4e06\AndroidManifest.xml:20:13-132
+service#io.nlopez.smartlocation.geofencing.providers.GeofencingGooglePlayServicesProvider$GeofencingService
+ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\51ba94edc410c3dca5869639669c4e06\AndroidManifest.xml:22:9-24:40
+	android:exported
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\51ba94edc410c3dca5869639669c4e06\AndroidManifest.xml:24:13-37
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\51ba94edc410c3dca5869639669c4e06\AndroidManifest.xml:23:13-127
+service#io.nlopez.smartlocation.geocoding.providers.AndroidGeocodingProvider$AndroidGeocodingService
+ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\51ba94edc410c3dca5869639669c4e06\AndroidManifest.xml:25:9-27:40
+	android:exported
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\51ba94edc410c3dca5869639669c4e06\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\eliot\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\51ba94edc410c3dca5869639669c4e06\AndroidManifest.xml:26:13-120
