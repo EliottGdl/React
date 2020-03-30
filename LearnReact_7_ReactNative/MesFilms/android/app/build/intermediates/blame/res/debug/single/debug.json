@@ -1056,6 +1056,10 @@
         "source": "C:\\Users\\eliot\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-1.1.0.aar\\94d80d11bd21dcf7f0239b8c72f62012\\res\\drawable-mdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
+        "merged": "C:\\Users\\eliot\\Desktop\\Programmation\\React\\LearnReact_7_ReactNative\\MesFilms\\android\\app\\build\\intermediates\\res\\merged\\debug\\xml_provider_paths.xml.flat",
+        "source": "C:\\Users\\eliot\\Desktop\\Programmation\\React\\LearnReact_7_ReactNative\\MesFilms\\node_modules\\react-native-image-picker\\android\\build\\intermediates\\packaged_res\\debug\\xml\\provider_paths.xml"
+    },
+    {
         "merged": "C:\\Users\\eliot\\Desktop\\Programmation\\React\\LearnReact_7_ReactNative\\MesFilms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_low_normal.9.png.flat",
         "source": "C:\\Users\\eliot\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0.aar\\4b57f25ca931713e45f9236c6c7e175c\\res\\drawable-mdpi-v4\\notification_bg_low_normal.9.png"
     },
@@ -2470,6 +2474,10 @@
     {
         "merged": "C:\\Users\\eliot\\Desktop\\Programmation\\React\\LearnReact_7_ReactNative\\MesFilms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
         "source": "C:\\Users\\eliot\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-1.1.0.aar\\94d80d11bd21dcf7f0239b8c72f62012\\res\\drawable-xxxhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "C:\\Users\\eliot\\Desktop\\Programmation\\React\\LearnReact_7_ReactNative\\MesFilms\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_list_item.xml.flat",
+        "source": "C:\\Users\\eliot\\Desktop\\Programmation\\React\\LearnReact_7_ReactNative\\MesFilms\\node_modules\\react-native-image-picker\\android\\build\\intermediates\\packaged_res\\debug\\layout\\list_item.xml"
     },
     {
         "merged": "C:\\Users\\eliot\\Desktop\\Programmation\\React\\LearnReact_7_ReactNative\\MesFilms\\android\\app\\build\\intermediates\\res\\merged\\debug\\color_test_mtrl_calendar_day.xml.flat",

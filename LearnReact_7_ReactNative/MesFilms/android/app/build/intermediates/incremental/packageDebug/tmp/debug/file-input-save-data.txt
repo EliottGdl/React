@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sun Mar 29 21:37:39 CEST 2020
+#Mon Mar 30 20:04:18 CEST 2020
 56.path=lib/x86/libimagepipeline.so
 5.base=C\:\\Users\\eliot\\Desktop\\Programmation\\React\\LearnReact_7_ReactNative\\MesFilms\\android\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
 42.base=C\:\\Users\\eliot\\Desktop\\Programmation\\React\\LearnReact_7_ReactNative\\MesFilms\\android\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
