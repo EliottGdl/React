@@ -25,19 +25,17 @@ export default connect(mapStateToProps) (class Avatar extends Component {
                 let photo = { uri : response.uri }
                 const action = { type: "NEW_AVATAR", value: photo };
                 this.props.dispatch(action);
-                console.log("2 : " +this.props.avatar);
             }
         })
     }       
 
     render() {
-        console.log("Moi : "+this.props.avatar);
         return (
             <TouchableOpacity
-                style={StyleSheet.touchableOpacity}
+                style={styles.touchableOpacity}
                 onPress={this._avatarClicked}
             >
-                <Image style={StyleSheet.avatar} source={this.props.avatar}/>
+                <Image style={styles.avatar} source={this.props.avatar}/>
             </TouchableOpacity>
         )
     }
