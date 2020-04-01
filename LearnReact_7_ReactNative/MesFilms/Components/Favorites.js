@@ -28,7 +28,7 @@ class Favorites extends Component {
 
 const mapStateToProps = state => {
     return {
-      favoritesFilm: state.favoritesFilm
+      favoritesFilm: state.toggleFavorite.favoritesFilm
     }
   }
 export default connect(mapStateToProps)(Favorites);

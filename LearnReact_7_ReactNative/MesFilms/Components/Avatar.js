@@ -1,31 +1,47 @@
 import React, { Component } from 'react'
+import {connect} from "react-redux";
 import ImagePicker from "react-native-image-picker"
 import {StyleSheet, TouchableOpacity, Image} from "react-native" 
 
-export default class Avatar extends Component {
+const mapStateToProps = state => {
+    return {
+        avatar:state.changeAvatar.avatar
+    }
+}
+
+export default connect(mapStateToProps) (class Avatar extends Component {
 
     constructor(props) {
         super(props);
-        this.state = {
-            avatar : require("../Image/ic_tag_faces.png"),
-        }
     }
 
     _avatarClicked = () => {
+        ImagePicker.showImagePicker({}, (response) => {
+            if(response.didCancel) {
 
-    }
+            } else if(response.error) {
+                console.log(response.error);
+            } else {
+                let photo = { uri : response.uri }
+                const action = { type: "NEW_AVATAR", value: photo };
+                this.props.dispatch(action);
+                console.log("2 : " +this.props.avatar);
+            }
+        })
+    }       
 
     render() {
+        console.log("Moi : "+this.props.avatar);
         return (
             <TouchableOpacity
                 style={StyleSheet.touchableOpacity}
                 onPress={this._avatarClicked}
             >
-                <Image style={StyleSheet.avatar} source={this.state.avatar}/>
+                <Image style={StyleSheet.avatar} source={this.props.avatar}/>
             </TouchableOpacity>
         )
     }
-}
+})
 
 const styles = StyleSheet.create({
     touchableOpacity: {

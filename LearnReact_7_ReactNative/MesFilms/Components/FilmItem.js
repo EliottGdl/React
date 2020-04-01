@@ -4,7 +4,7 @@ import { connect } from "react-redux";
 
 const mapStateToProps = (state) => {
     return {
-        favoritesFilm: state.favoritesFilm
+        favoritesFilm: state.toggleFavorite.favoritesFilm
     };
 }
 
